@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="14 -1 68 82">
+<path d="M48,16 L48,5" fill="none" stroke="#2E7D32" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M48,12 C42,12 38,8.5 38.5,4 C44.5,4 48,7.5 48,12 Z" fill="#66BB6A" stroke="#2E7D32" stroke-width="1.6"/>
+<path d="M48,9 C54,9 58,5.5 57.5,1 C51.5,1 48,4.5 48,9 Z" fill="#43A047" stroke="#2E7D32" stroke-width="1.6"/>
+<path d="M24,59 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" fill="#F7C9A0" stroke="#3A2A1E" stroke-width="2.5"/>
+<path d="M62,59 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" fill="#F7C9A0" stroke="#3A2A1E" stroke-width="2.5"/>
+<path d="M28,57 a20,21 0 1,0 40,0 a20,21 0 1,0 -40,0" fill="#F7C9A0" stroke="#3A2A1E" stroke-width="2.5"/>
+<path d="M30,40 C18,40 16,23 27,20 C26,10 41,8 46,17 C51,9 67,11 65,21 C77,23 75,40 64,40 Z" fill="#FFFFFF" stroke="#3A2A1E" stroke-width="2.5"/>
+<path d="M31,37 h34 a5,5 0 0,1 5,5 v3 a5,5 0 0,1 -5,5 h-34 a5,5 0 0,1 -5,-5 v-3 a5,5 0 0,1 5,-5 Z" fill="#FFFFFF" stroke="#3A2A1E" stroke-width="2.5"/>
+<path d="M48,38 C44,40 43.3,45 48,48.5 C52.7,45 52,40 48,38 Z" fill="#43A047" stroke="#2E7D32" stroke-width="1.4"/>
+<path d="M30,64 a4.5,3.6 0 1,0 9,0 a4.5,3.6 0 1,0 -9,0" fill="#F2A2A0"/>
+<path d="M57,64 a4.5,3.6 0 1,0 9,0 a4.5,3.6 0 1,0 -9,0" fill="#F2A2A0"/>
+<path d="M37,52.5 Q41,49.8 45,52" fill="none" stroke="#6E4A2A" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M51,52 Q55,49.8 59,52.5" fill="none" stroke="#6E4A2A" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M38.4,57 a2.7,3 0 1,0 5.4,0 a2.7,3 0 1,0 -5.4,0" fill="#3A2A1E"/>
+<path d="M52.2,57 a2.7,3 0 1,0 5.4,0 a2.7,3 0 1,0 -5.4,0" fill="#3A2A1E"/>
+<path d="M40,55.2 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" fill="#FFFFFF"/>
+<path d="M53.8,55.2 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" fill="#FFFFFF"/>
+<path d="M45,62 a3,2.6 0 1,0 6,0 a3,2.6 0 1,0 -6,0" fill="#EBB488"/>
+<path d="M48,67 C42,65.5 34,66 28.5,70.5 C26.5,72 27,68.5 30.5,68" fill="none" stroke="#5A3A1E" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M48,67 C54,65.5 62,66 67.5,70.5 C69.5,72 69,68.5 65.5,68" fill="none" stroke="#5A3A1E" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M44.5,73.5 Q48,76.5 51.5,73.5" fill="none" stroke="#3A2A1E" stroke-width="2" stroke-linecap="round"/>
+</svg>
