@@ -39,38 +39,34 @@ h2 { font-size: 1.6rem; margin: 2.5rem 0 1rem; }
   font-display: swap;
 }
 
-/* Header — the app's green banner (same gradient as the Play Store feature graphic) */
-header.site {
-  position: sticky; top: 0; z-index: 10;
-  background: var(--brand-top);
-  box-shadow: 0 1px 0 rgba(0,0,0,.06), 0 4px 14px rgba(27,94,32,.18);
-}
-header.site .wrap { display: flex; align-items: center; justify-content: space-between; gap: 1rem; height: 66px; }
+/* Masthead — one continuous green banner (same gradient as the Play Store
+   feature graphic). The header has no background of its own: no separate bar. */
+.masthead { background: linear-gradient(180deg, var(--brand-top), var(--brand-bottom)); color: #fff; }
+header.site .wrap { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem 1rem; padding-top: 1.1rem; padding-bottom: .5rem; }
 .brand { display: flex; align-items: center; gap: .6rem; text-decoration: none; color: #fff; }
-.brand .logo { width: 34px; height: auto; display: block; filter: drop-shadow(0 1px 1px rgba(0,0,0,.15)); }
-.wordmark { font-family: "Comfortaa", system-ui, sans-serif; font-weight: 700; font-size: 1.55rem; letter-spacing: .01em; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,.12); }
+.brand .logo { width: 34px; height: auto; display: block; }
+.wordmark { font-family: "Comfortaa", system-ui, sans-serif; font-weight: 700; font-size: 1.5rem; letter-spacing: .01em; color: #fff; }
 .wordmark span { color: var(--leaf-light); }
-nav.top { display: flex; align-items: center; gap: 1.1rem; }
-nav.top .nav-link { text-decoration: none; color: rgba(255,255,255,.88); font-weight: 600; font-size: .95rem; }
+nav.top { display: flex; align-items: center; flex-wrap: wrap; gap: .25rem 1.1rem; }
+nav.top .nav-link { text-decoration: none; color: rgba(255,255,255,.9); font-weight: 600; font-size: .95rem; }
 nav.top .nav-link:hover { color: #fff; text-decoration: underline; text-underline-offset: 4px; }
 .kofi {
-  display: inline-flex; align-items: center; gap: .45rem;
+  display: inline-flex; align-items: center; gap: .35rem;
   background: #fff; color: var(--green-dark);
-  font-weight: 700; font-size: .92rem; text-decoration: none;
-  padding: .5rem .95rem; border-radius: 999px;
-  box-shadow: 0 2px 6px rgba(0,0,0,.15);
-  transition: transform .15s, box-shadow .15s;
-  white-space: nowrap;
+  font-weight: 700; font-size: .88rem; line-height: 1; text-decoration: none;
+  padding: .45rem .8rem; border-radius: 999px; white-space: nowrap;
 }
-.kofi svg { width: 18px; height: 18px; color: #ff5e5b; }
-.kofi:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,.2); }
-@media (max-width: 640px) {
-  nav.top .nav-link { display: none; }
-  .wordmark { font-size: 1.25rem; }
+.kofi svg { width: 16px; height: 16px; flex: none; color: #ff5e5b; }
+.kofi:hover { background: var(--green-soft); }
+.page-title { padding-top: 1.25rem; padding-bottom: 2rem; }
+.page-title h1 { font-family: "Comfortaa", system-ui, sans-serif; color: #fff; font-size: clamp(1.8rem, 4vw, 2.3rem); margin: 0; }
+@media (max-width: 520px) {
+  nav.top { gap: .25rem .85rem; }
+  nav.top .nav-link { font-size: .9rem; }
 }
 
 /* Hero — continues the header gradient, mascot + claim like the feature graphic */
-.hero { background: linear-gradient(180deg, var(--brand-top), var(--brand-bottom)); color: #fff; padding: 2.5rem 0 3.5rem; }
+.hero { padding: 1.5rem 0 3.5rem; }
 .hero .wrap { display: grid; grid-template-columns: auto 1fr; gap: 2.5rem; align-items: center; }
 .hero .mascot { width: clamp(150px, 22vw, 220px); height: auto; filter: drop-shadow(0 6px 12px rgba(0,0,0,.18)); }
 .hero h1 { font-family: "Comfortaa", system-ui, sans-serif; color: #fff; font-size: clamp(1.9rem, 4.6vw, 2.9rem); letter-spacing: .01em; }
@@ -111,8 +107,7 @@ nav.top .nav-link:hover { color: #fff; text-decoration: underline; text-underlin
 .card p { margin: 0; color: var(--muted); font-size: .97rem; }
 
 /* Content pages */
-main.doc { padding: 2.5rem 0 1rem; }
-main.doc h1 { font-size: 2.1rem; }
+main.doc { padding: 2rem 0 1rem; }
 main.doc .updated { color: var(--muted); font-size: .9rem; margin-top: -.25rem; }
 main.doc h2 { font-size: 1.35rem; border-top: 1px solid var(--line); padding-top: 1.5rem; }
 main.doc ul { padding-left: 1.2rem; }
