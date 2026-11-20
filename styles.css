@@ -97,6 +97,7 @@ nav.top .nav-link:hover { color: #fff; text-decoration: underline; text-underlin
 .btn:hover { background: var(--green-dark); }
 .btn.ghost { background: transparent; color: var(--green); border: 2px solid var(--green); }
 .btn.ghost:hover { background: var(--green-soft); }
+.btn.soon, .btn.soon:hover { background: var(--green-soft); color: var(--green-dark); border: 2px dashed var(--green); cursor: default; }
 .cta-row { display: flex; gap: .75rem; justify-content: center; flex-wrap: wrap; }
 
 /* Feature grid */
